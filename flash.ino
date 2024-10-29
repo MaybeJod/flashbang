@@ -5,8 +5,8 @@ void setup() {
 }
 
 void loop() {
-  int onTime = random(500, 2000); // Generate a random time between 500ms and 2000ms for LED on
-  int offTime = random(500, 2000); // Generate a random time between 500ms and 2000ms for LED off
+  int onTime = random(400, 1000); // Generate a random time between 500ms and 2000ms for LED on
+  int offTime = random(400, 1000); // Generate a random time between 500ms and 2000ms for LED off
 
   digitalWrite(ledPin, HIGH); // Turn on the LED
   delay(onTime); // Wait for the random on time
